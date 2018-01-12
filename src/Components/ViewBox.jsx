@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import { browserHistory } from 'react-router';
+import { Route } from 'react-router-dom';
 import HomePage from './HomePage.jsx';
 import Resume from './Resume.jsx';
 import Portfolio from './Portfolio.jsx';

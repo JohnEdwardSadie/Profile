@@ -10,13 +10,13 @@ class Footer extends Component {
               <div className="row justify-content-start">
                 <div className="col">
                   <ul className="list-inline">
-                    <a href="https://www.linkedin.com/in/JohnSadie/" target="_blank" title="Linkedin">
+                    <a href="https://www.linkedin.com/in/JohnSadie/" rel="noopener noreferrer" target="_blank" title="Linkedin">
                       <i className="fa fa-linkedin fa-3x"></i>
                     </a>
-                    <a href="https://github.com/johnedwardsadie" target="_blank" title="Github">
+                    <a href="https://github.com/johnedwardsadie" rel="noopener noreferrer" target="_blank" title="Github">
                       <i className="fa fa-github fa-3x"></i>
                     </a>
-                    <a href="mailto:johnesadie@gmail.com" target="_blank" title="Say Hi!">
+                    <a href="mailto:johnesadie@gmail.com" rel="noopener noreferrer" target="_blank" title="Say Hi!">
                       <i className="fa fa-envelope-o fa-3x"></i>
                     </a>
                   </ul>
