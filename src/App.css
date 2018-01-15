@@ -23,7 +23,7 @@ CSS GOES HERE
   margin: auto;
   width: 1080px;
   max-height: 720px;
-  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
   /*padding: 100px;*/
 }
 
@@ -54,6 +54,7 @@ ul {
 
 .navButton a:hover{
   border-bottom: 0.25rem solid #F84443;
+
 }
 
 
@@ -94,6 +95,7 @@ section a:nth-child(3):hover i {
 /* Main Button Style  */
 
 .btn {
+  color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 2rem;
@@ -112,3 +114,7 @@ section a:nth-child(3):hover i {
 
 
 /* End Main Button Style */
+
+
+
+/* myCard Style */
