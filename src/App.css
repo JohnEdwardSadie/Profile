@@ -19,6 +19,7 @@ CSS GOES HERE
 }
 
 .card {
+  padding: 2rem;
   margin: auto;
   width: 1080px;
   max-height: 720px;
@@ -51,6 +52,10 @@ ul {
   color: #000000;
 }
 
+.navButton a:hover{
+  border-bottom: 0.25rem solid #F84443;
+}
+
 
 a {
 	text-decoration: none;
@@ -62,7 +67,7 @@ section ul {
 
 section a {
 	padding: 7px;
-    color: black;
+  color: black;
 }
 
 section a:not(:first-child) {
@@ -75,13 +80,35 @@ section i {
 }
 
 section a:nth-child(1):hover i {
-	color: #DC7D70;
+	color: #F84443;
 }
 
 section a:nth-child(2):hover i {
-	color: #DC7D70;
+	color: #F84443;
 }
 
 section a:nth-child(3):hover i {
-	color: #DC7D70;
+	color: #F84443;
 }
+
+/* Main Button Style  */
+
+.btn {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1px;
+  background: none;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  border: none;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  color: #FFFFFF;
+  background-color: #F84443;
+}
+
+
+/* End Main Button Style */

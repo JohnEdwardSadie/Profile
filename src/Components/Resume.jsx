@@ -9,7 +9,8 @@ class Resume extends Component {
           title="My Resume"
           />
         <h3>Check out my resume!</h3>
-        <button className="btn">  <a href="#" className="button">View Full Resume</a></button>
+        <a href="/"><button className="btn">View Full Resume</button></a>
+    
       </div>
     )
   }
