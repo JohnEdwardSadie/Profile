@@ -6,14 +6,14 @@ class HomePage extends Component {
     return (
       <div>
         <Title
-          title="Hi, I'm John!"
+          title="Hi, I'm John Sadie!"
           />
 
         <div className="padding container">
     <div className="row">
       <div className="col">
         <p>
-          I am a creative thinker and developer currently looking for employment. <br></br>
+          I am a developer currently looking for employment. <br></br>
           I enjoy UI/UX things. I have interned at Salesforce as a UX Engineer working on the Lightning Design System.
         </p>
       </div>

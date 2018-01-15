@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Header />
+  
           <Navigation />
           <ViewBox />
           <Footer />

@@ -8,6 +8,7 @@ class SayHi extends Component {
         <Title
           title="Say Hi!"
           />
+
       </div>
     )
   }
