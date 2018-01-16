@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 
-class HomePage extends Component {
+class Profile extends Component {
   render() {
     return (
       <div>
@@ -23,4 +23,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+export default Profile;

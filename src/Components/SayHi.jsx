@@ -6,9 +6,18 @@ class SayHi extends Component {
     return (
       <div>
         <Title
-          title="Say Hi!"
+          title="Say Hi"
           />
 
+        <div className="container">
+    <div className="row">
+      <div className="col">
+        <p>
+          Contact Me
+        </p>
+      </div>
+    </div>
+  </div>
       </div>
     )
   }

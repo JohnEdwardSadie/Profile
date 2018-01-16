@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 
-class Resume extends Component {
+class salesforceInternal extends Component {
   render() {
     return (
       <div>
         <Title
-          title="My Resume"
+          title="Intern Project"
           />
 
-        <div className="container">
+        <div className="padding container">
     <div className="row">
       <div className="col">
-        <h4>Check out my resume</h4>
-        <a href="JohnSadie.pdf"><button className="btn">View Full Resume</button></a>
+        <p>
+          My intern project.
+        </p>
       </div>
     </div>
   </div>
@@ -22,4 +23,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default salesforceInternal;

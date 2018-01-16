@@ -21,8 +21,22 @@ class Portfolio extends Component {
               </div>
             </div>
 
-            <div class="col-xs-6 col-md-4"></div>
-            <div class="col-xs-6 col-md-4"></div>
+            <div class="col-xs-6 col-md-4">
+              <div className="porfolioCard">
+                <h4>NAU App</h4>
+                <p>Allows students to alert ITS of any conflicts/questions about technology.</p>
+                <Link className="btn" to="/nauApp">Learn More</Link>
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+              <div className="porfolioCard">
+                <h4>Salesforce</h4>
+                <p>Redesign and recode of the internal Lightning Design System website.</p>
+                <Link className="btn" to="/salesforceInternal">Learn More</Link>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
