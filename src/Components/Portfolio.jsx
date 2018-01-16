@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 import { Link } from 'react-router-dom';
-import Profile from './Profile.jsx';
 
 class Portfolio extends Component {
   render() {
