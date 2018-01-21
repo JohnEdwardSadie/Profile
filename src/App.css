@@ -23,13 +23,19 @@ CSS GOES HERE
   padding: 2rem;
   margin: auto;
   width: 1080px;
-  max-height: 720px;
+  /*max-height: 720px;*/
+  min-height: 24rem;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
   /*padding: 100px;*/
 }
 
+.card h4 {
+  padding-bottom: 1rem;
+}
+
 #footer {
-  position: absolute;
+  /*position: absolute;*/
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
