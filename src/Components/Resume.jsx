@@ -14,7 +14,7 @@ class Resume extends Component {
   }
 
   render() {
-    const { pageNumber, numPages } = this.state;
+    const { pageNumber } = this.state;
     return (
       <div>
         <Title
