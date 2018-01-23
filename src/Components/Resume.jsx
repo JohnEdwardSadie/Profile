@@ -24,7 +24,6 @@ class Resume extends Component {
         <div className="container">
     <div className="row">
       <div className="col">
-        <h4>Check out my resume</h4>
         <a className="btn" href={ResumePDF} download="JohnSadie">Download Full Resume</a>
         <div>
           <Document

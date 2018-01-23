@@ -5,6 +5,13 @@ CSS GOES HERE
 */
 
 
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
 .padding {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -120,6 +127,9 @@ section a:nth-child(3):hover i {
   background-color: #F84443;
 }
 
+.resume {
+  padding-top: 5rem;
+}
 
 /* End Main Button Style */
 
