@@ -9,15 +9,21 @@ class salesforceInternal extends Component {
           title="Intern Project"
           />
 
-        <div className="padding container">
-    <div className="row">
-      <div className="col">
-        <p>
-          My intern project.
-        </p>
-      </div>
+          <div className="flex-grid">
+
+        <div className="col">
+          <h5>Description</h5>
+          <p>
+            I was delegated the task of redesigning and recoding the internal website
+            of the Lightning Design System.
+          </p>
+          <h5>Tools/Languages</h5>
+          <p>
+            HTML, CSS, JavaScript, React, Sketch, Heroku
+          </p>
+        </div>
+
     </div>
-  </div>
       </div>
     )
   }

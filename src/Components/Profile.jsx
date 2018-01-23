@@ -9,14 +9,19 @@ class Profile extends Component {
           title="My Website"
           />
 
-        <div className="padding container">
-    <div className="row">
+        <div className="flex-grid">
+
       <div className="col">
+        <h5>Description</h5>
         <p>
           This was created to act as my virtual resume and personal portfolio.
         </p>
+        <h5>Tools/Languages</h5>
+        <p>
+          HTML, CSS, JavaScript, React
+        </p>
       </div>
-    </div>
+
   </div>
       </div>
     )

@@ -10,7 +10,7 @@ class NavBar extends Component {
             <li className="navButton"><Link to="">Home</Link></li>
             <li className="navButton"><Link to="/Resume">Resume</Link></li>
             <li className="navButton"><Link to="/Portfolio">Portfolio</Link></li>
-            <li className="navButton"><Link to="/SayHi">Say Hi</Link></li>
+            <li className="navButton"><Link to="/SayHi">Contact</Link></li>
           </ul>
         </div>
       </div>

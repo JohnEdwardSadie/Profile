@@ -6,15 +6,20 @@ class SayHi extends Component {
     return (
       <div>
         <Title
-          title="Say Hi"
+          title="Contact"
           />
 
         <div className="container">
     <div className="row">
       <div className="col">
-        <p>
-          Contact Me
-        </p>
+        <h4>
+          Email: johnesadie@gmail.com
+        </h4>
+      </div>
+      <div className="col">
+        <h4>
+          Phone: 6025159882
+        </h4>
       </div>
     </div>
   </div>
