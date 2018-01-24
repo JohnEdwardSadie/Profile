@@ -14,7 +14,7 @@ class ViewBox extends Component {
     return (
       <div>
       <div className="card col-xs-1" align="center">
-        <Route name="home" exact path="/" component={HomePage} />
+        <Route name="home" exact path="/Profile" component={HomePage} />
         <Route name="resume" exact path="/Resume" component={Resume} />
         <Route name="portfolio" exact path="/Portfolio" component={Portfolio} />
         <Route name="sayhi" exact path="/SayHi" component={SayHi} />
