@@ -8,21 +8,31 @@ class SayHi extends Component {
         <Title
           title="Contact"
           />
+        <div className="nonMobile">
+        <div className="col">
+          <h4>
+            Email: johnesadie@gmail.com
+          </h4>
+        </div>
+        <div className="col">
+          <h4>
+            Phone: 6025159882
+          </h4>
+        </div>
+      </div>
 
-        <div className="container">
-    <div className="row">
+      <div className="Mobile">
       <div className="col">
-        <h4>
+        <h6>
           Email: johnesadie@gmail.com
-        </h4>
+        </h6>
       </div>
       <div className="col">
-        <h4>
+        <h6>
           Phone: 6025159882
-        </h4>
+        </h6>
       </div>
     </div>
-  </div>
       </div>
     )
   }

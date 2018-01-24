@@ -24,7 +24,7 @@ class Resume extends Component {
         <div className="container">
     <div className="row">
       <div className="col">
-        <a className="btn" href={ResumePDF} download="JohnSadie">Download Full Resume</a>
+        <a className="btn" href={ResumePDF} download="JohnSadie">Download</a>
         <div>
           <Document
             file={ResumePDF}
