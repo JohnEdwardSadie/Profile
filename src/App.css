@@ -5,13 +5,6 @@ CSS GOES HERE
 */
 
 
-.flex-grid {
-  display: flex;
-}
-.col {
-  flex: 1;
-}
-
 .padding {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -65,12 +58,6 @@ ul {
   text-decoration: none;
   color: #000000;
 }
-
-.navButton a:hover{
-  border-bottom: 0.25rem solid #F84443;
-
-}
-
 
 a {
 	text-decoration: none;
@@ -138,4 +125,36 @@ p {
 }
 
 
-/* myCard Style */
+/* Responsive */
+
+
+
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
+
+@media (max-width: 1080px) {
+  .flex-grid {
+    display: block;
+    .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.flex-grid {
+  margin: 0 0 20px 0;
+}
+.col {
+  padding: 20px;
+}
