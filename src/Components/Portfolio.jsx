@@ -15,7 +15,7 @@ class Portfolio extends Component {
 
                 <h4>Profile</h4>
                 <p>This site was created by me to act as my virtual resume and portfolio. </p>
-                <Link className="btn" to="/Profile">Learn More</Link>
+                <Link className="btn" to="/Website">Learn More</Link>
 
           </div>
           <div className="col">

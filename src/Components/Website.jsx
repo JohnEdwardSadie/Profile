@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 
-class Profile extends Component {
+class Website extends Component {
   render() {
     return (
       <div>
@@ -28,4 +28,4 @@ class Profile extends Component {
   }
 }
 
-export default Profile;
+export default Website;
