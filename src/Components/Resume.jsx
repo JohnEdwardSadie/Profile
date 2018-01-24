@@ -28,7 +28,7 @@ class Resume extends Component {
           <a className="btn" href={ResumePDF} download="JohnSadie">Download Full Resume</a>
         </div>
         <div className="Mobile">
-          <a className="btn" href={ResumePDF} download="JohnSadie">Download</a>
+          <a className="btn" href={ResumePDF} download="JohnSadie">View Resume</a>
         </div>
         <div>
           <Document
