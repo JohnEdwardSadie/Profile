@@ -14,7 +14,8 @@ class Website extends Component {
       <div className="col">
         <h5>Description</h5>
         <p>
-          This was created to act as my virtual resume and personal portfolio.
+          This was created to act as my virtual resume and personal portfolio. It utilizes the React framework to power the
+          routing between each page. It is built with components, custom css, and flexbox.
         </p>
         <h5>Tools/Languages</h5>
         <p>

@@ -13,7 +13,7 @@ class HomePage extends Component {
     <div className="row">
       <div className="col">
         <p>
-          I am a developer currently looking for employment. <br></br>
+          I am a developer always trying to learn new technologies, skills, and languages. <br></br>This way, I can stay in the forefront of the evolving tech atmosphere.<br></br>
           I enjoy UI/UX things. I have interned at Salesforce as a UX Engineer working on the Lightning Design System.
         </p>
       </div>
