@@ -24,10 +24,10 @@ class Resume extends Component {
           />
 
         <div className="container">
+          <a className="btn" href={ResumePDF} download="JohnSadie">Download Full Resume</a>
     <div className="row">
       <div className="col">
         <div className="nonMobile">
-          <a className="btn" href={ResumePDF} download="JohnSadie">Download Full Resume</a>
         </div>
         <div className="Mobile">
           <a className="btn" href={ResumePDF} download="JohnSadie">View Resume</a>

@@ -8,15 +8,12 @@ body {
   background-color: #f5f5f5;
   color: #505050;
   text-rendering: optimizeLegibility;
-}
 
-
-body {
-	background: linear-gradient(-45deg, #c60001, #ee7a55, #e8ba73, #4b7674);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #b695a6, #725d6c, #3d3f4b, #5a616b);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
 }
 
 @-webkit-keyframes Gradient {

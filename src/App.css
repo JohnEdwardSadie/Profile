@@ -67,6 +67,10 @@ a {
 	text-decoration: none;
 }
 
+.navButton a:hover {
+  color: #F84443;
+}
+
 section ul {
 	text-align: center;
 }
@@ -206,4 +210,8 @@ body {
 .footerBake {
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.footerBake:hover {
+  color: #F84443;
 }
