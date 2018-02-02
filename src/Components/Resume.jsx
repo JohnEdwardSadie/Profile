@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
 import ResumePDF from './JohnSadie.pdf';
 import Title from './Title.jsx';
+import resume from './resume.png';
 
 class Resume extends Component {
   state = {
@@ -18,6 +19,7 @@ class Resume extends Component {
     return (
       <div>
         <Title
+          illus={resume}
           title="My Resume"
           />
 

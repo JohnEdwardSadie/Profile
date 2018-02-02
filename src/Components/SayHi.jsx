@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
+import contact from './contact.png';
 
 class SayHi extends Component {
   render() {
     return (
       <div>
         <Title
+          illus={contact}
           title="Contact"
           />
         <div className="nonMobile">

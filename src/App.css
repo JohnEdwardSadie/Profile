@@ -4,6 +4,10 @@ CSS GOES HERE
 
 */
 
+.border {
+  border-bottom: 1px solid #ccc;
+}
+
 .images {
   float: left;
 }
@@ -27,7 +31,7 @@ p {
   padding-left: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid #ccc;
+
 
 }
 

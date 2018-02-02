@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
-
+import boy from './boy.png';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
         <Title
+          illus={boy}
           title="Hi, I'm John Sadie!"
           />
 

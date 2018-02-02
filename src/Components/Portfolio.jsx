@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 import { Link } from 'react-router-dom';
+import portfolio from './portfolio.png';
 
 class Portfolio extends Component {
   render() {
     return (
       <div>
         <Title
+          illus={portfolio}
           title="My Portfolio"
           />
 
