@@ -4,6 +4,15 @@ CSS GOES HERE
 
 */
 
+.images {
+  float: left;
+}
+
+.title {
+  display: flex;
+
+}
+
 p {
   text-transform: none;
 }
@@ -14,7 +23,7 @@ p {
 }
 
 .title {
-  padding-top: 1rem;
+  padding-top: 0rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
@@ -23,12 +32,13 @@ p {
 }
 
 .card {
+  background-color: #ffffff;
   padding: 2rem;
   margin: auto;
   max-width: 1080px;
   /*max-height: 720px;*/
   min-height: 24rem;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 4px 4px rgba(0,0,0,0.23);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
   /*padding: 100px;*/
 }
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Title from './Title.jsx';
 
+
 class HomePage extends Component {
   render() {
     return (
