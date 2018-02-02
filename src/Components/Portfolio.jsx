@@ -22,7 +22,7 @@ class Portfolio extends Component {
          <div className="col">
 
               <h4>NAU App</h4>
-              <p>Alert ITS of any conflicts/questions about technology.</p>
+              <p>Students can alert ITS of any conflicts/questions about technology.</p>
               <Link className="btn" to="/nauApp">Learn More</Link>
 
           </div>

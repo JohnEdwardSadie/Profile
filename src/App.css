@@ -60,7 +60,7 @@ ul {
 
 .navButton a {
   text-decoration: none;
-  color: #505050;
+  color: #ffffff;
 }
 
 a {
@@ -73,7 +73,7 @@ section ul {
 
 section a {
 	padding: 7px;
-  color: #505050;
+  color: #ffffff;
 }
 
 section a:not(:first-child) {
@@ -204,5 +204,6 @@ body {
 }
 
 .footerBake {
+  color: #ffffff;
   text-transform: uppercase;
 }
