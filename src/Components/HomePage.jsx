@@ -11,7 +11,7 @@ class HomePage extends Component {
           title="Hi, I'm John Sadie!"
           />
 
-        <div className="padding container">
+        <div className="container">
     <div className="row">
       <div className="col">
         <p>
