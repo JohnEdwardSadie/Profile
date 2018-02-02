@@ -41,7 +41,7 @@ p {
   max-width: 1080px;
   /*max-height: 720px;*/
   min-height: 24rem;
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, .7);
   /*padding: 100px;*/
 }
 
