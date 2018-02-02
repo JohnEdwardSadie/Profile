@@ -75,7 +75,7 @@ section ul {
 
 section a {
 	padding: 7px;
-  color: black;
+  color: #505050;
 }
 
 section a:not(:first-child) {
