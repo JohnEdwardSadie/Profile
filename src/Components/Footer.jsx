@@ -44,8 +44,8 @@ class Footer extends Component {
               </div>
             </div>
           </section>
-          <p className="text-center" title="No steal ples">
-              © John Sadie 2018
+          <p className="text-center footerBake" title="No steal ples">
+              Baked From Scratch By John Sadie
           </p>
         </div>
       </footer>
