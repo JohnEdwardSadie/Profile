@@ -6,6 +6,7 @@ CSS GOES HERE
 
 .border {
   border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
 }
 
 .images {
@@ -44,9 +45,6 @@ p {
   /*padding: 100px;*/
 }
 
-.card h4 {
-  padding-bottom: 1rem;
-}
 
 ul {
     list-style: none;
@@ -164,6 +162,10 @@ p {
       width: 100%;
       margin: 0 0 10px 0;
     }
+    .p2 {
+      margin: inherit;
+    }
+
   }
   .card {
     padding: 0;
