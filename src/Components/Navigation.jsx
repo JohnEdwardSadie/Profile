@@ -8,6 +8,7 @@ class NavBar extends Component {
         <div className="text-center">
           <ul id="navBar">
             <li className="navButton"><Link to="/Profile">Home</Link></li>
+            <li className="navButton"><Link to="/About">About</Link></li>
             <li className="navButton"><Link to="/Resume">Resume</Link></li>
             <li className="navButton"><Link to="/Portfolio">Portfolio</Link></li>
             <li className="navButton"><Link to="/SayHi">Contact</Link></li>

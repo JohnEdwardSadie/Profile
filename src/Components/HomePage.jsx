@@ -7,7 +7,6 @@ class HomePage extends Component {
     return (
       <div>
         <Title
-          illus={boy}
           title="Hi, I'm John Sadie!"
           />
 
@@ -16,7 +15,7 @@ class HomePage extends Component {
       <div className="col">
         <p>
           I am a developer always trying to learn new technologies, skills, and languages. <br></br>This way, I can stay in the forefront of the evolving tech atmosphere.<br></br>
-          I enjoy UI/UX things. I have interned at Salesforce as a UX Engineer working on the Lightning Design System.
+        I enjoy UI/UX things. I have interned at Salesforce as a UX Engineer working on the Lightning Design System.
         </p>
       </div>
     </div>

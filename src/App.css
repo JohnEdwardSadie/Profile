@@ -169,7 +169,6 @@ p {
     .p2 {
       margin: inherit;
     }
-
   }
   .card {
     padding: 0;
@@ -214,4 +213,18 @@ body {
 
 .footerBake:hover {
   color: #F84443;
+}
+
+
+.parent {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+       flex-grow: 1;
+   }
+
+.aboutme {
+ text-align: left;
 }
