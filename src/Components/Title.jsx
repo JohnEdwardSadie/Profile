@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 
 class Title extends Component {
+
   render() {
+
     return (
       <div className="illus">
-        <img className= "images" src={this.props.illus}></img>
+        {this.props.illus != undefined &&
+          <img className= "images icons" src={this.props.illus}></img>
+        }
+
         <div className="title">
           <h2 className="text-justify">
             {this.props.title}

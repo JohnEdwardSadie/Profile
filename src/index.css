@@ -51,3 +51,13 @@ body {
 		background-position: 0% 50%
 	}
 }
+
+.icons {
+  border: 0.15rem solid #b3b3b3;
+  border-radius: 50%;
+  background: linear-gradient(-90deg, #b695a6, #725d6c, #3d3f4b, #5a616b);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
