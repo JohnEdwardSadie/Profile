@@ -232,6 +232,8 @@ body {
  text-align: left;
 }
 
-.illus {
-
+.img-valign {
+  max-width: 100%;
+  vertical-align: middle;
+  margin-bottom: 0.75em;
 }

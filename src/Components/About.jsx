@@ -12,14 +12,8 @@ class About extends Component {
           title="About Me"
           />
 
-        <div className="parent">
-      <div className="left">
-        <img className= "images profilepic" src={profilepic}></img>
-      </div>
-      <div className="right">
+        <img className="img-valign" src={profilepic} alt="" />
 
-        <div className="container aboutme">
-    <div className="row">
       <div className="col">
         <p>
           I am a 23 year old that has studied Computer Science and Mathematics at Northern Arizona University.
@@ -45,11 +39,6 @@ class About extends Component {
           I'm insanely good at FPS games such as: CS:GO and PUBG.
         </p>
       </div>
-    </div>
-  </div>
-
-      </div>
-    </div>
 
 
       </div>
