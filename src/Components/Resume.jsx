@@ -34,25 +34,25 @@ class Resume extends Component {
           		<h4>+ Skills & Technologies</h4>
               <h5>Day-To-Day Comfort</h5>
               <p>
-                <li><span>HTML & CSS</span></li>
-                <li><span>React</span></li>
-                <li><span>Sketch</span></li>
-                <li><span>JavaScript</span></li>
-                <li><span>Swift</span></li>
-                <li><span>Agile Methodology</span></li>
-                <li><span>Responsive Design</span></li>
-                <li><span>Mobile First Thinking</span></li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Sketch</li>
+                <li>JavaScript</li>
+                <li>Swift</li>
+                <li>Agile Methodology</li>
+                <li>Responsive Design</li>
+                <li>Mobile First Thinking</li>
               </p>
 
               <h5>Experience With</h5>
               <p>
-                <li><span>C</span></li>
-                <li><span>Python</span></li>
-                <li><span>PHP</span></li>
-                <li><span>C++</span></li>
-                <li><span>Java</span></li>
-                <li><span>Adobe InDesign</span></li>
-                <li><span>Adobe Illustrator</span></li>
+                <li>C</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Adobe InDesign</li>
+                <li>Adobe Illustrator</li>
               </p>
           	</div>
 
