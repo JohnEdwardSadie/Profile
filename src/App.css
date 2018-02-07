@@ -40,7 +40,7 @@ p {
   margin: auto;
   max-width: 1080px;
   /*max-height: 720px;*/
-  min-height: 24rem;
+  min-height: 20rem;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, .7);
   /*padding: 100px;*/
 }
@@ -129,7 +129,7 @@ section a:nth-child(3):hover i {
 /* End Main Button Style */
 
 p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* Responsive */
@@ -236,4 +236,97 @@ body {
   max-width: 100%;
   vertical-align: middle;
   margin-bottom: 0.75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STRUCTURE */
+.wrapper {
+  text-align: left;
+  padding: 5px;
+  max-width: 960px;
+  width: 95%;
+  margin: 20px auto;
+}
+
+header {
+  padding: 0 15px;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.column {
+  flex: 1;
+  margin: 2px;
+  padding: 10px;
+}
+.column:first-child {
+  margin-left: 0;
+}
+.column:last-child {
+  margin-right: 0;
+}
+
+footer {
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+  }
+  .columns .column:nth-last-child(2) {
+    margin-right: 0;
+  }
+  .columns .column:last-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+}
+
+p span
+{
+    display: block;
+}
+
+.ital {
+  font-style: italic;
+}
+
+h6 {
+  font-size: 10px;
+}
+
+.story {
+  width: 200px;
+  text-align: left;;
+}
+
+.stor {
+  padding-right: 100px;
 }

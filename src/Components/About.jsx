@@ -14,30 +14,31 @@ class About extends Component {
 
         <img className="img-valign" src={profilepic} alt="" />
 
-      <div className="col">
+      <div className="col stor">
+        <div className="story">
+          <h5>My Name Is John</h5>
         <p>
-          I am a 23 year old that has studied Computer Science and Mathematics at Northern Arizona University.
+          I spent some of my formative years in the Philippines. I then was able
+          to move to the United States before my teenage years. I like to workout and say I eat healthy, but In-N-Out is really good.
+
+        </p>
+        <p>
           My brother was the one that got me into coding. I have always been around computers as a kid, but mainly only for video games.
           I grew a passion for code based on the simple concept of creating something out of nothing.
         </p>
-        <h5>
-          Fun Fact #1:
-        </h5>
+
         <p>
           Skateboarding was a big passion for me as a kid.
         </p>
-        <h5>
-          Fun Fact #2:
-        </h5>
+
         <p>
          I attended a performing arts high school, where I learned how to play the piano and drums.
         </p>
-        <h5>
-          Fun Fact #3:
-        </h5>
+
         <p>
           I'm insanely good at FPS games such as: CS:GO and PUBG.
         </p>
+      </div>
       </div>
 
 

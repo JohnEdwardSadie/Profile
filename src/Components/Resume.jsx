@@ -23,30 +23,121 @@ class Resume extends Component {
           title="My Resume"
           />
 
-        <div className="container">
           <a className="btn" href={ResumePDF} download="JohnSadie">Download Full Resume</a>
-    <div className="row">
-      <div className="col">
-        <div className="nonMobile">
-        </div>
-        <div className="Mobile">
-          <a className="btn" href={ResumePDF} download="JohnSadie">View Resume</a>
-        </div>
-        <div>
-          <Document
-            file={ResumePDF}
-            onLoadSuccess={this.onDocumentLoad}
-            className="resume"
-          >
-          <Page
-            pageNumber={pageNumber}
-            width="960"
-          />
-          </Document>
-        </div>
-      </div>
-    </div>
-  </div>
+
+        <div className="wrapper">
+
+
+          <section className="columns">
+
+          	<div className="column">
+          		<h4>+ Skills & Technologies</h4>
+              <h5>Day-To-Day Comfort</h5>
+              <p>
+                <li><span>HTML & CSS</span></li>
+                <li><span>React</span></li>
+                <li><span>Sketch</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Swift</span></li>
+                <li><span>Agile Methodology</span></li>
+                <li><span>Responsive Design</span></li>
+                <li><span>Mobile First Thinking</span></li>
+              </p>
+
+              <h5>Experience With</h5>
+              <p>
+                <li><span>C</span></li>
+                <li><span>Python</span></li>
+                <li><span>PHP</span></li>
+                <li><span>C++</span></li>
+                <li><span>Java</span></li>
+                <li><span>Adobe InDesign</span></li>
+                <li><span>Adobe Illustrator</span></li>
+              </p>
+          	</div>
+
+          	<div className="column">
+          		<h4>+ Education</h4>
+
+                <p>
+                  <span>Northern Arizona University</span>
+                  <span className="ital">Major: Computer Science</span>
+                  <span className="ital">Minor: Mathematics</span>
+                </p>
+
+              <h4>+ Experience</h4>
+              <h5>Salesforce</h5>
+                <p>
+                  <span>-Front-end Developer for the Lightning Design System</span>
+                  <span>-Redesigned and coded internal website using Sketch and React.js</span>
+                  <span>-Built Lightning components</span>
+                  <h6>May 2017 - Aug 2017</h6>
+                  </p>
+
+              <h5>NAU TA</h5>
+                <p>
+                  <span>-Front-end Developer for the Lightning Design System</span>
+                  <span>-Redesigned and coded internal website using Sketch and React.js</span>
+                  <span>-Built Lightning components</span>
+                  <h6><span>Aug 2016 - May 2017</span></h6>
+                  </p>
+
+              <h5>NAU ITS</h5>
+                <p>
+                  <span>-Front-end Developer for the Lightning Design System</span>
+                  <span>-Redesigned and coded internal website using Sketch and React.js</span>
+                  <span>-Built Lightning components</span>
+                  <h6>Oct 2015 - Aug 2016</h6>
+                  </p>
+
+
+
+
+          	</div>
+
+            <div className="column">
+              <h4>+ Projects</h4>
+
+
+              <h5>Technology Query Application</h5>
+                <p>
+                  <span>-Utilized Eclipse IDE and Apache Maven Integration</span>
+                  <span>-I was delegated the project to create a Mac application thatt will be installed in all of the Mac machines in the entirety of the NAU campus</span>
+                  <span>-This application allows students to alert ITS of any conflicts, and/or questions about technology.</span>
+                  <span>-Used subversion as a revision control system.</span>
+                  </p>
+
+                  <h5>Social Discovery Dating Website</h5>
+                    <p>
+                      <span>-Utilized Ionic Framework, and Facebook API</span>
+                      <span>-Had organized weekly team meetings for code reviews, documentation, and functionality testing</span>
+                      </p>
+
+                      <h5>RPG Game</h5>
+                        <p>
+                          <span>-Utilized GitHub to properly document contributions</span>
+                          <span>-Used Python to create a builtin HTTP server for localhost builds.</span>
+                          <span>-Used Google Hangouts as a means for pair programming, and to have quick responses between the members.</span>
+                          </p>
+
+
+                          <h5>Profile Website</h5>
+                            <p>
+                              <span>-Utilized React for routing and DOM updates</span>
+                              <span>-Housed within github pages.</span>
+                              <span>-Created and maintained to act as my personal profile and virtual resume.</span>
+                              </p>
+
+
+          	</div>
+
+          </section>
+
+
+          </div>
+
+
+
       </div>
     )
   }

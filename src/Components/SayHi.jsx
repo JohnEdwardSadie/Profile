@@ -8,7 +8,7 @@ class SayHi extends Component {
       <div>
         <Title
           illus={contact}
-          title="Hire Me"
+          title="Say Hi"
           />
         <div className="nonMobile">
         <div className="col">
