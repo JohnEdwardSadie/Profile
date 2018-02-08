@@ -52,7 +52,7 @@ ul {
 }
 
 .navButton {
-  font-size: 22px;
+  font-size: 18px;
   display: inline-block;
   padding: 2rem;
   color: #505050;
@@ -159,6 +159,13 @@ p {
   }
 }
 
+@media (max-width: 375px) {
+  .navButton {
+    display: block;
+  }
+
+}
+
 @media (max-width: 480px) {
   .flex-grid {
     display: block;
@@ -189,6 +196,10 @@ p {
   .title {
     padding: inherit;
     padding-top: 1rem;
+  }
+
+  .navButton {
+    display: block;
   }
 
 }
