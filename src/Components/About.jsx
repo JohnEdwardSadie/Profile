@@ -36,7 +36,7 @@ class About extends Component {
         </p>
 
         <p>
-          I'm insanely good at FPS games such as: CS:GO and PUBG.
+          I think I'm good at FPS games such as: CS:GO and PUBG.
         </p>
       </div>
       </div>
