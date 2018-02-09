@@ -345,3 +345,24 @@ h6 {
 .legal {
   text-align: left;
 }
+
+
+.main {
+  margin-bottom: 10px;
+}
+
+.main,
+.side {
+  text-align: left;
+  padding: 1rem;
+}
+
+@media ( min-width : 720px ){
+	.flexbox {
+    display: -webkit-flex;
+    display: flex;
+	}
+  .main {
+    margin: 0 10px 0 0;
+  }
+}

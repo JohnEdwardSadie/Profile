@@ -12,10 +12,12 @@ class About extends Component {
           title="About Me"
           />
 
-        <img className="img-valign" src={profilepic} alt="" />
 
-      <div className="col stor">
-        <div className="story">
+        <div className="flexbox">
+        <article className="main">
+        <img className="img-valign" src={profilepic} alt="" />
+        </article>
+        <section className="side">
           <h5>My Name Is John</h5>
         <p>
           I spent some of my formative years in the Philippines. I then was able
@@ -38,10 +40,8 @@ class About extends Component {
         <p>
           I think I'm good at FPS games such as: CS:GO and PUBG.
         </p>
+        </section>
       </div>
-      </div>
-
-
       </div>
     )
   }
