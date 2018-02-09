@@ -349,12 +349,18 @@ h6 {
 
 .main {
   margin-bottom: 10px;
+  width: 360px;
 }
+.side {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 
 .main,
 .side {
+  max-width: 100%;
   text-align: left;
-  padding: 1rem;
 }
 
 @media ( min-width : 720px ){
@@ -362,7 +368,4 @@ h6 {
     display: -webkit-flex;
     display: flex;
 	}
-  .main {
-    margin: 0 10px 0 0;
-  }
 }
