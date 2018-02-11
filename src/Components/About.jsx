@@ -20,13 +20,14 @@ class About extends Component {
         <section className="side">
           <h5>My Name Is John</h5>
         <p>
+          The concept of creating something out nothing drives my passion for code and development.
+          I've recently graduated with a BA in Computer Science and a minor Mathematics.
+          I was always around computers growing up, but mainly used them for gaming and exploring the web. My brother introduced me to coding and I haven't looked back since.
+        </p>
+
+        <p>
           I spent some of my formative years in the Philippines. I then was able
           to move to the United States before my teenage years. I like to workout and say I eat healthy, but In-N-Out is really good.
-
-        </p>
-        <p>
-          My brother was the one that got me into coding. I have always been around computers as a kid, but mainly only for video games.
-          I grew a passion for code based on the simple concept of creating something out of nothing.
         </p>
 
         <p>

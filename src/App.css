@@ -352,6 +352,8 @@ h6 {
   width: 360px;
 }
 .side {
+  width: 800px;
+  padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
