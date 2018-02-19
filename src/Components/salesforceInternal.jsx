@@ -15,7 +15,6 @@ class salesforceInternal extends Component {
 
         <div className="col">
           <img className="img-valign" src={internpic} alt="" />
-          <h6 className="legal">Blurred for legality</h6>
           <h5>Description</h5>
           <p>
             I was delegated the task of redesigning and recoding the internal website
